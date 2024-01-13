@@ -1,0 +1,38 @@
+{
+
+    "files.watcherExclude": {
+      "**/.gradle/**": true,
+      "**/build/**": true
+    },
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-21",
+        "path": "/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home",
+        "default": true
+      }
+    ],
+    "[kotlin]": {
+      "editor.defaultFormatter": "fwcd.kotlin",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.formatOnSave": true
+    },
+    "[kotlin.gradle.kts]": {
+      "editor.defaultFormatter": "fwcd.kotlin",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.formatOnSave": true
+    },
+    "spring-boot.ls.java.home": "/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home",
+    "kotlin.compiler.jvm.target": "21",
+    "java.jdt.ls.java.home": "/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home",
+    "java.project.referencedLibraries": [
+      "lib/**/*.jar",
+      "gradle/**/*.jar"
+    ],
+    "editor.formatOnSave": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
+  }
+  

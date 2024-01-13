@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "fwcd.kotlin",
+        "vscjava.vscode-java-pack",
+        "pivotal.vscode-spring-boot",
+        "naco-siren.gradle-language"
+    ]
+}
