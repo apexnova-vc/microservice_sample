@@ -1,5 +1,4 @@
 {
-
     "files.watcherExclude": {
       "**/.gradle/**": true,
       "**/build/**": true
@@ -18,13 +17,6 @@
       },
       "editor.formatOnSave": true
     },
-    "[kotlin.gradle.kts]": {
-      "editor.defaultFormatter": "fwcd.kotlin",
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-      },
-      "editor.formatOnSave": true
-    },
     "spring-boot.ls.java.home": "/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home",
     "kotlin.compiler.jvm.target": "21",
     "java.jdt.ls.java.home": "/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home",
@@ -32,7 +24,7 @@
       "lib/**/*.jar",
       "gradle/**/*.jar"
     ],
-    "editor.formatOnSave": true,
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic"
   }
   

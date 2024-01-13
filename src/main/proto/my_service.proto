@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package com.apexnova.sample;
+
+service MyService {
+    rpc MyMethod(MyServiceRequest) returns (MyServiceResponse);
+}
+
+message MyServiceRequest {
+    string id = 1;
+}
+
+message MyServiceResponse {
+    string data = 1;
+}
